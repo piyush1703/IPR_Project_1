@@ -14,6 +14,8 @@ pip install torch==1.8.0+cpu torchvision==0.9.0+cpu -f https://download.pytorch.
 ```
 pip install -r requirements.txt
 ```
+* Download VGG16 backbone pretrained weights from this link https://download.pytorch.org/models/vgg16_bn-6c64b313.pth and place <br> this downloaded weights in the **CrowdCounting_P2PNet** directory
+  
 ## Datasets
 * Dataset downloaded from the paper repository are in folder **part_A_final** and **part_B_final**
 * These datasets are preprocessed using `preprocess_dataset1.py` , `preprocess_dataset2.py` and `preprocess_dataset3.py` scripts <br> to make it in form required as mentioned below
