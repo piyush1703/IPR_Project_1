@@ -51,7 +51,7 @@ x2 y2
 ## Training
 
 * The network can be trained using the `train.py` script
-* Run training script inside a directory CrowdCounting_P2PNet
+* Run training script inside a directory **CrowdCounting_P2PNet**
 * For training on SHTechPartA use DATA_ROOT in place of $DATA_ROOT in below command 
 * For training on SHTechPartB use DATA_ROOT2 in place of $DATA_ROOT in below command
 
@@ -72,8 +72,8 @@ By default, a periodic evaluation will be conducted on the validation set.
 
 ## Testing
 
-Store trained model weights in "./weights" folder, run the following commands to launch a visualization demo
-Run testing script inside a directory CrowdCounting_P2PNet
+* Store trained model weights in "./weights" folder, run the following commands to launch a visualization demo
+* Run testing script inside a directory **CrowdCounting_P2PNet**
 
 ```
 python run_test.py --weight_path ./weights/your_weights_file --output_dir ./logs/
