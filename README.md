@@ -39,7 +39,6 @@ DATA_ROOT/
         |->train.list
         |->test.list
 ```
-DATA_ROOT is your path containing the counting datasets.
 
 ### Annotations format
 For the annotations of each image, we use a single txt file which contains one annotation per line. Note that indexing for pixel values starts at 0. The expected format of each line is:
