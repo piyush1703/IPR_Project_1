@@ -76,4 +76,4 @@ Store trained model weights in "./weights" folder, run the following commands to
 ```
 python run_test.py --weight_path ./weights/your_weights_file --output_dir ./logs/
 ```
-Visualised image can be seen on logs directory
+Visualised image can be seen in logs directory
