@@ -68,3 +68,12 @@ x2 y2
     --eval_freq 1 \
 ```
 By default, a periodic evaluation will be conducted on the validation set.
+
+## Testing
+
+Store trained model weights in "./weights" folder, run the following commands to launch a visualization demo:
+
+```
+python run_test.py --weight_path ./weights/your_weights_file --output_dir ./logs/
+```
+Visualised image can be seen on logs directory
